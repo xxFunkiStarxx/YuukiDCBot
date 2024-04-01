@@ -95,12 +95,10 @@ module.exports = {
         .setTitle(`Ticket System`)
         .setDescription(`Hello, ${interaction.user}.`)
         .addFields({name: '**Ticket Rules**', value: `- Please briefly write us / or send any proof inside this channel, so we can help you faster and better.\n- It is forbidden to abuse the ticketsystem, otherwise u gets banned to use this system.\n>** Do not ping any staff/support member**\n- Our support Team gots pinged, we'll help you as fast as we can.\n\n- Thanks for your attention!\n`})
-        .addFields({name: '**Support Team**', value: `<@&993909503907078276> <@&1051502781351075951> <@&993988711714918473> <@&994551615979786353>`})
+        .addFields({name: '**Support Team**', value: `<Role ID's>`})
         .setTimestamp()
         .setColor('#b496f3')
         .setFooter({text: `Ticket System - v.${update2}`})
-
-        // Staff ids: <@&993909503907078276> <@&1051502781351075951> <@&993988711714918473> <@&994551615979786353>
 
         const CloseReportButton = new ButtonBuilder()
         .setCustomId('closeticket')
